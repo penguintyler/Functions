@@ -1,5 +1,6 @@
 void setup(){
   size (800,600);
+  noCursor();
   
   
 }
@@ -7,8 +8,9 @@ void setup(){
   
   
 void draw(){
+  background(255);
   blu();
-  mcirc;
+  mcirc(255,100,150);
   
   
 }
@@ -20,8 +22,9 @@ void blu(){
   rect(width/2,height/2,50,50);
 }
 
-void mcirc(){
-  ellipse(mouseX,mouseY,30);
+void mcirc(float red,float green,float blue){
+  fill(red,green,blue);
+  ellipse(mouseX,mouseY, 30, 30);
   
 }
  
