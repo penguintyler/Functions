@@ -1,8 +1,7 @@
 void setup(){
   size (800,600);
   noCursor();
-  
-  
+   
 }
   
   
@@ -11,8 +10,7 @@ void draw(){
   background(255);
   blu();
   mcirc(255,100,150);
-  
-  
+    
 }
 
 
